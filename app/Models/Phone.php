@@ -11,6 +11,7 @@ class Phone extends Model
 
     protected $fillable = [
         'phone',
+        'contact_id'
     ];
 
     public function phone()
